@@ -36,6 +36,9 @@ settings.py
 # archivos de la bd
 media/*
 
+#vim Linux
+*.swp
+*~
 #extra
 albums/*.png
 tracks/*.mkv
