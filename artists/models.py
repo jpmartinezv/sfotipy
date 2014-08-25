@@ -7,4 +7,4 @@ class Artist(models.Model):
     biography = models.TextField(blank = True)
 
     def __unicode__(self):
-        return self.first_name
+        return self.first_name + ' ' + self.last_name

@@ -39,6 +39,3 @@ media/*
 #vim Linux
 *.swp
 *~
-#extra
-albums/*.png
-tracks/*.mkv
