@@ -101,6 +101,7 @@ MEDIA_ROOT = os.sep.join(os.path.abspath(__file__).split(os.sep)[:-2] + ['media'
 MEDIA_URL = '/media/'
 
 #Backends
-#AUTHENTICATION_BACKENDS = (
-#   'userprofiles.backends.EmailBackend', 
-#      )
+AUTHENTICATION_BACKENDS = (
+   'userprofiles.backends.EmailBackend', 
+   'django.contrib.auth.backends.ModelBackend',
+)
