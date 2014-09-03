@@ -35,6 +35,7 @@ Thumbs.db
 settings.py
 # archivos de la bd
 media/*
+venv/*
 
 #vim Linux
 *.swp
